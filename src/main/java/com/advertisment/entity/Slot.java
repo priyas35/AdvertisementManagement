@@ -28,6 +28,9 @@ public class Slot {
 	private Plan plan;
 	@Enumerated(EnumType.STRING)
 	private SlotStatus slotStatus;
-	private Double totalCost; 
+	private Double totalCost;
+	@ManyToOne
+	@JoinColumn(name="created_by")
+	private User createdBy;
 
 }
