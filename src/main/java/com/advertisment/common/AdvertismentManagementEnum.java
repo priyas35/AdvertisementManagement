@@ -3,7 +3,7 @@ package com.advertisment.common;
 public class AdvertismentManagementEnum {
 
 	public enum Role {
-		PAYTM, PHONEPE;
+		ADMIN, SALESPERSON;
 	}
 	
 	public enum SlotStatus {

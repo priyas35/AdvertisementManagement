@@ -6,6 +6,6 @@ import com.advertisment.exception.UserNotFoundException;
 
 public interface UserService {
 
-	LoginResponseDto authenticateEmployee(LoginRequestDto loginRequestDto) throws UserNotFoundException;
+	LoginResponseDto authenticateUser(LoginRequestDto loginRequestDto) throws UserNotFoundException;
 
 }

@@ -15,7 +15,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.donation.akshayapathra")).paths(PathSelectors.any())
+				.apis(RequestHandlerSelectors.basePackage("com.advertisment")).paths(PathSelectors.any())
 				.build();
 
 	}

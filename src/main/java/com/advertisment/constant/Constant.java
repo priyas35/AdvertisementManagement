@@ -13,6 +13,8 @@ public class Constant {
 	public static final String AUTHENTICATION_SUCCESSFUL = "Authentication Successful";
 	public static final String AUTHENTICATION_FAILED = "Authentication Failed";
 	public static final String USER_NOT_FOUND = "User not found";
+	public static final String PLAN_NOT_FOUND = "Plan not found";
+	public static final String SLOT_NOT_FOUND = "Slot not found";
 	
 	
 
