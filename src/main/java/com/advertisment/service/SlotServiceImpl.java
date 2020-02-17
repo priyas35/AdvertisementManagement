@@ -1,5 +1,8 @@
 package com.advertisment.service;
 
-public class SlotServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class SlotServiceImpl implements SlotService{
 
 }

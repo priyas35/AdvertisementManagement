@@ -1,5 +1,8 @@
 package com.advertisment.service;
 
-public class PlanServiceImpl {
+import org.springframework.stereotype.Service;
+
+@Service
+public class PlanServiceImpl implements PlanService{
 
 }
