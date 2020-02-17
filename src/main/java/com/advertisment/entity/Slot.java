@@ -30,7 +30,7 @@ public class Slot {
 	private SlotStatus slotStatus;
 	private Double totalCost;
 	@ManyToOne
-	@JoinColumn(name = "created_by")
+	@JoinColumn(name="created_by")
 	private User createdBy;
 
 }
